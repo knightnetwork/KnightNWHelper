@@ -425,7 +425,7 @@ systems:
       Oy vererek oy 15 dakika ada fly /vip için sınırsız adafly kazanılır. /adafly kullanılır Belirli bir süresi vardır süre bittiğinde uçma yetkisi iptal edilir
   - title: "Jackpot"
     content: |
-      Jackpot oyuncuların para yatırdığı şans oyunlarıdır En az 2 oyuncu jackpota katılınca oyun başlar Oyuncular para havuzuna para yatırır süre bittiğinde ise rastgele bir oyuncu seçilir ve oyuncuların yatırdığı tüm parayı kazanır Jackpot Basic Jackpot, Standart Jackpot ve Premium Jackpot olmak üzere 3 e ayrılır Basit Jackpot için Minimum giriş miktarı 1 oyun içi bakiye, Maksimum 100 oyun içi bakiyedir Standart Jackpot için Minimum giriş miktarı 1000 oyun içi bakiye, Maksimum 10000 oyun içi bakiyedir Premium Jackpot için Minimum giriş miktarı 1000 bakiye, Maksimum 100.000 oyun içi bakiyedir
+      Jackpot oyuncuların para yatırdığı şans oyunlarıdır En az 55 oyuncu jackpota katılınca oyun başlar Oyuncular para havuzuna para yatırır süre bittiğinde ise rastgele bir oyuncu seçilir ve oyuncuların yatırdığı tüm parayı kazanır Jackpot Basic Jackpot, Standart Jackpot ve Premium Jackpot olmak üzere 3 e ayrılır Basit Jackpot için Minimum giriş miktarı 1 oyun içi bakiye, Maksimum 100 oyun içi bakiyedir Standart Jackpot için Minimum giriş miktarı 1000 oyun içi bakiye, Maksimum 10000 oyun içi bakiyedir Premium Jackpot için Minimum giriş miktarı 1000 bakiye, Maksimum 100.000 oyun içi bakiyedir
   - title: "Gece Pazarı"
     content: |
       Her gece 00:00 ve 06:00 saatleri arasında açılan sunucunun marketidir Oyuncular buradan ucuz fiyatla oyun içerisinde bulunması zor olan eşyaları alabilir Her eşya için belirli bir stok sayısı vardır
