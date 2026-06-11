@@ -1,0 +1,710 @@
+# ============================================================
+#  KnightNWHelper - BILGI TABANI
+#  (Knight Network icin otomatik donusturuldu)
+#  Eklenti yalnizca 'entries' ve 'systems' bolumlerini okur.
+#  Degistirince oyun ici:  /sorai knowledge reload
+# ============================================================
+
+entries:
+  - title: "Sunucu Bilgileri"
+    content: "İsim: Knight Network | IP: play.knightnw.com | Port: 25565 | Sürüm: 1.21.11 | Tür: Skyblock,Survival,Factions | Dil: Türkçe | Kuruluş: 2018 | Site: https://knightnw.com | Discord: https://discord.gg/knightnw"
+  - title: "Sunucu Kuralları"
+    content: "Hile, makro ve tüm zararlı yazılımları kullanmak yasaktır. • Bug bildirilmeden kullanmak veya yararlanmak yasaktır. • Sohbette insanları rahatsız edici cümleler kullanmak yasaktır. • TP tuzağı ve dolandırıcılık yasaktır. • Yetkililerle saygısız bir şekilde konuşmak yasaktır. • Her türlü reklam ve bağlantı (link) paylaşımı yasaktır. • Kill kasmak veya kastırmak kesinlikle yasaktır. • Burada yazmayan fakat uyulması gereken görgü kuralları dahildir. • Birden fazla AFK hesap ile reklam yapmak yasaktır. AFK hesaplardan yapılan reklam aralığı 10 dakikadan fazla olmalıdır. • AFK halde kasılmak yasaktır (blok kırmak, balık tutmak vb.). Farm ve spawnerlar için AFK bırakmak serbesttir. • AFK client veya başka bir yazılım ile çiftçiden otomatik satış yapmak yasaktır. • Jackpota birden çok hesapla katılmak yasaktır. • Birden fazla hesap ile sezon sıralamasına girmek yasaktır. • Yan hesaplardan eşya toplamak yasaktır. • Kuralların tamamını okumak için /kurallar yazabilirsiniz. • 2 ay boyunca oyuna girmeyenlerin claimi manuel olarak yetkililer tarafından kaldırılabilir. Lütfen oyuna girmeye özen gösterin. • Bir oyuncuyu rahatsız etmek ve claimini trollemek raide girer ve cezası 2 gün hapis cezasıdır. (Tüm kurallar için /kurallar)"
+  - title: "Ekonomi - Genel"
+    content: "Para birimi: Coin. Başlangıç bakiyesi: 500."
+  - title: "Ekonomi - Para Kazanma Yolları"
+    content: "Günlük Ödül: /günlüködül komutunu kullanarak rütbesine göre her 24 saatte bir ödül al; Voting (oy verme): Oyuncu /vote komutuyla sunucuya oy verir ve 50 claim block + 1 adet oy kasası anahtarı kazan; AH satışı: /ah komutu ile eşyalarını satışa koy; Order satışı: /order üzerinden gelen oyuncu siparişlerini tamamlayarak para kazan.; Görev sistemi: /görev komutu ile seçtiğin görevleri tamamlayarak ödül kazan; Günlük görev sistemi: /günlükgörev ile her gün 3 farklı eşya teslimatı görevi yaparak ödül al; Discord Ödül: /discordödül komutu üzerinden Discord hesabını sunucuya bağlayarak veya discord sunucusuna boost basarak çeşitli ödüller kazan; Oy Serisi: /oyver komutu ile her gün oy vererek oy serisinde ilerleyip çeşitli ödüller kazan"
+  - title: "Ekonomi - Para Harcama"
+    content: "/shop - Ana mağaza, /ah - Açık artırma, /jackpot - Şans oyunları"
+  - title: "Dünya: Spawn"
+    content: "Spawn dünyası, /spawn ile gelinir PvP: kapalı, Grief: kapalı."
+  - title: "Dünya: Survival"
+    content: "Ana survival dünyası, /rtp ile gelinir PvP: açık, Grief: açık."
+  - title: "Dünya: PvP Arena"
+    content: "Oyuncular arası savaş bölgesi, /warp arena PvP: açık, Grief: kapalı."
+  - title: "Dünya: Madenler"
+    content: "Madencilik için özel dünya, /warp maden PvP: kapalı, Grief: açık."
+  - title: "Dünya: Nether "
+    content: "Nether dünyası, /rtp ile gelinir PvP: açık, Grief: açık."
+  - title: "Komutlar (general)"
+    content: "/spawn = Doğuş noktasına ışınlanır | /sethome <isim> = Bulunduğun yere ev oluşturur | /home <isim> = Oluşturduğun eve ışınlanır | /delhome <isim> = Oluşturduğun ev kaydını siler | /tpatoggle = Tpa isteği almayı ayarlar | /tpa <oyuncu> = Oyuncuya ışınlanma isteği gönderir | /tpaccept = Size ışınlanma isteği gönderen oyuncunun tpa isteğini kabul eder | /tpdeny = Size ışınlanma isteği gönderen oyuncunun tpa isteğini reddeder | /tpacancel = Oyuncuya gönderdiğiniz ışınlanma isteğini iptal eder | /msg <oyuncu> <mesaj> = Özel mesaj gönderir | /balance = Bakiyeni gösterir | /pay <oyuncu> <miktar> = Para gönderir | /sor <soru> = AI yardımcıya soru sorar (bu komut!) | /pet name <isim> = Evcil hayvana isim verir | /afkclient = Afk client kurulumu için linki iletir | /2fa = 2FA kurulumu için kullanılır | /back = En son ışınlandığınız konuma geri gönderir | /balıksat = Özel balıkları satmak için kullanılan menüyü açar | /balıkçı = Özel balık kataloğunu açar | /baltop = Sunucudaki oyuncuların para miktarını görmeyi sağlar | /cfly = Oyuncunun kendi claimi sınırları içerisinde uçmasını sağlar | /chest = Oyuncunun kendisine özel sanal sandığını açar | /craft = Sanal crafting table a erişim sağlar | /discord = Discord sunucusunun linkini iletir | /dc = Discord sunucusunun linkini iletir | /ignore <isim> = Oyuncuyu kendinden engeller | /envanterisat = Envanterinde bulunan ürünleri markete satar | /envoy = Sonraki envoy etkinliğine kalan süreyi gösterir | /expşişele <exp miktarı> = Üstündeki expyi şişeler | /farmsat = Özel ekinleri satabileceğin satış menüsünü açar | /gecepazarı = 00:00-06:00 saatleri arasında açılan gecepazarı menüsünü açar | /heal = Canını yeniler | /hesapeşle = Oyun içi hesabını discord hesabın ile eşlemeni sağlar | /hesapeşle kaldır = Oyun hesabının discord eşlemesini kaldırır | /ignorelist = Kendinden engellediğin oyuncuları listeler | /jackpot = Şans oyunu menüsünü açar | /kit = Rütbene göre alabileceğin kitlerin menüsünü açar | /kozmetikler = Özel şapkalar, kostümler ve efektler gibi kozmetik eşyaları yönetebileceğin menüyü açar | /msgtoggle = Özel mesaj alma isteklerini ayarlar | /owarp = Oyuncu warplarını listeler | /owarp remove <owarp ismi> = Belirtilen isimdeki oyuncu warpını kaldırır | /owarp create <owarp ismi> = Belirtilen isimde bir oyuncu warpı oluşturur | /owarp desc set <owarp ismi> <açıklama> = Belirtilen Oyuncu warpının açıklamasını ayarlar | /owarp desc remove <owarp ismi> = Belirtilen oyuncu warpının açıklamasını kaldırır | /owarp icon set <owarp ismi> = Belirtilen oyuncu warpının menü üzerindeki ikonunu oyuncunun elindeki eşya ile değiştirir | /owarp icon remove <owarp ismi> = Belirtilen oyuncu warpının ikonunu sıfırlar | /owarp reset <owarp ismi> = Belirtilen oyuncu warpının yerini değiştirir | /owarp rename <owarp ismi> <yeni owarp ismi> = Belirtilen oyuncu warpının ismini yenisi ile değiştirir | /feed = Açlık barlarını doldurur | /parıltı = Oyuncunun etrafındaki parıltıyı ayarlayabileceği menü | /oyver = Oy sitelerinin linkini iletir | /ödüllerim = Biriken oy ödüllerini verir | /çöp = Sanal çöp menüsünü açar | /çiftçi = Claimin içerisinde bulunan çiftçinin menüsünü açar | /yetenekler = Yeteneklerle ilgili detaylı menüyü açar | /warp = Warpların bulunduğu detaylı menüyü açar | /vp = Bir sonraki vote party için gerekli olan oy sayısını gösterir | /repair = Elinde bulunan aleti tamir eder | /repair all = Envanterindeki tüm aletleri tamir eder | /sell all = Envanterindeki tüm ürünleri markete satar | /sell hand = Elinde tuttuğun ürünü markete satar | /sellall <ürün ismi> = Envanterinde bulunan belirttiğin tüm ürünleri markete satar | /report <oyuncu> = Sadece oyuncunun mesajlarını yapay zekaya bildirir. Hile grief gibi şeylere karışmaz sadece oyuncu sohbete yasaklı birşey yazarsa yapay zeka destekli mute atar. Diğer şeyler için video veya resim ile kanıt elde edip discorddan veya siteden destek açın. | /oyserisi = Oy vererek oy serisinde ilerleme kazanıp çeşitli ödüller kazanacağın menüyü açar | /sit = Yere oturtur | /tag = İsminin yanında gözükecek etiketler alacağın menüyü açar | /zindanparti = Zindanlara arkadaşlarınla girebilmek için lobi oluşturur | /pack = Sunucuya özel texture packi indirir | /sure = Oyun içerisindeki toplam oynama süreni gösterir | /cb off = Hologram sohbeti kapatır | /cb on = Hologram sohbeti açar | /profil = Oyuncu profilini açar | /vip = Vip bilgileri menüsünü açar | /büyücü = Özel büyü menüsünü açar | /rütbeler = Sunucudaki rütbelerin detaylı bilgisinin bulunduğu menüyü açar | /rankup = Gerekli koşulların sağlanması halinde rütbe atlamak için kullanılır | /cfly time = Claim uçuş sürenizin ne kadar kaldığını gösterir | /menü = Tüm sistemlerin olduğu menü | /surebak <oyuncu> = Oyuncunun sunucuda geçirdiği toplam süreyi gösterir | /simyacı = Özel büyü kitaplarını ve gizemli tozları birleştirebileceğin menüyü açar | /qs remove = Baktığın sandık marketi kaldırır | /qs price <oyuncu> = Baktığın sandık marketinin fiyatını değiştirir | /qs buy = Baktığın sandık marketini satın alma moduna geçirir | /qs sell = Baktığın sandık marketini satış moduna geçirir | /claim = Claim Menüsünü açar | /trust <oyuncu> = Oyuncuya claim içinde verilen izinleri kullanma yetkisi verir | /trustlist = Claiminizde yetkili olan oyuncuları listeler | /accestrust <oyuncu> = Oyuncuya claim içinde yatak, kapı, tuzak kapısı ve butonlara erişim izni verir | /abandonallclaims = Dünya üzerindeki tüm claimlerinizi kaldırır | /abandonallclaims confirm = Tüm claimleri kaldırma işlemini onaylar | /abandonclaim = Üzerinde bulunduğunuz claimi kaldırır | /unclaim = Üzerinde bulunduğunuz claimi kaldırır | /claimlist = Tüm claimlerinizi listeleyen menüyü açar | /claimban <oyuncu> = Oyuncunun claim alanınıza girişini engeller | /claimunban <oyuncu> = Yasaklı oyuncunun claim giriş yasağını kaldırır | /claimexplosions = Claim içinde patlayıcıların (TNT, creeper) etkisini ayarlar | /permissiontrust <oyuncu> = Oyuncuya claim içinde başkalarına yetki verme izni verir | /birlik create <birlik ismi> = Yeni bir birlik oluşturur | /birlik sethome = Birliğe özel eve ışınlanmayı sağlar | /birlik delhome = Birliğe ait ev kaydını siler | /birlik setwarp <warp ismi> = Birliğe özel warp oluşturmayı sağlar | /birlik delwarp <warp ismi> = Birliğe ait warp kaydını siler | /birlik echest = Birliğe özel sanal sandığı açmayı sağlar | /birlik color <renk kodu> = Birliğin isminin rengini değiştirmeyi sağlar | /birlik allychat <mesaj> = Müttefik birliklerle ortak sohbete mesaj göndermeyi sağlar | /birlik description <açıklama> = Birliğin açıklamasını güncellemeyi sağlar | /birlik title <oyuncu> <takma isim> = Birlik üyesine özel takma isim vermeyi sağlar | /birlik balance = Birliğin kasasında bulunan para miktarını gösterir | /birlik ban <oyuncu> = Belirtilen oyuncu birlikten yasaklamayı sağlar | /birlik promote <oyuncu> = Oyuncunun birlik içerisindeki rütbesini yükseltir | /birlik warps = Birliğe ait warp noktalarını listeler | /birlik top = Sunucudaki birlikleri puanlarına göre listeler | /birlik ally <birlik ismi> = Belirtilen birliğe müttefiklik isteği gönderir | /birlik rankup = Gerekli şartlar sağlandığında birliği seviye yükseltir | /birlik leave = Birlikten ayrılmayı sağlar | /birlik rank <birlik ismi> = Birliğin seviyesini gösterir | /birlik join <birlik ismi> = Birliğe katılmayı sağlar | /birlik tag <etiket> = Birliğin etiketini değiştirmeyi sağlar | /birlik disband = Birliği tamamen silmeyi sağlar | /birlik info <oyuncu ismi/birlik ismi> = Birlik hakkında detaylı bilgileri gösterir | /birlik neutral <birlik ismi> = Belirtilen birlik ile müttefikliğini bozarak tarafsız duruma geçirir | /birlik pvp = Birlik için pvp ayarını kontrol eder | /birlik baltop = Sunucudaki birlikleri kasa bakiyesine göre sıralar | /birlik list <sayfa sayısı> = Sunucudaki birlikleri listeler | /birlik unban <oyuncu> = Birlikteki yasaklı oyuncunun yasağını kaldırır | /birlik demote <oyuncu> = Oyuncunun birlik içerisinde yetkisini düşürür | /birlik kick <oyuncu> = Oyuncuyu birlikten atmayı sağlar | /birlik chat <mesaj> = Birlikte bulunan oyuncuların kendi aralarında konuşabileceği sohbete mesaj gönderen komut | /birlik name <yeni birlik ismi> = Birliğin ismini değiştirmeyi sağlar | /birlik deposit <para miktarı> = Birlik kasasına para yatırmayı sağlar | /birlik invite <oyuncu> = Oyuncuyu birliğe davet etmeyi sağlar | /birlik open = Birliğe açık katılımı etkinleştirir | /birlik withdraw <para miktarı> = Birliğin kasasında bulunan parayı geri alma komutu | /duel <oyuncu> = Oyuncuya düello isteği gönderir | /duel <oyuncu> <bahis miktarı> = Oyuncuya bahisli düello isteği gönderir | /duel accept <oyuncu> = Düello isteğini kabul eder | /duel deny <oyuncu> = Düello isteğini reddeder | /duel stats <oyuncu> = Oyuncunun düello istatistiklerini gösterir | /duel toggle = Düello isteklerini almayı açar veya kapatır | /teslimat = Belirli eşyaları teslim ederek ödül kazanabileceğin sistemi açar | /sıralama = Teslimat , profil , aylık oyun içi sıralamanın bulunduğu ana menüyü açar | /skin <isim> = Oyun içi skin görünüşünü değiştirmeyi sağlar | /tablo = Scoreboard ın ekranda görünme ayarlarını değiştirir | /skill top <skill ismi> = Belirtilen skillde en yüksek skora ulaşmış 10 oyuncuyu listeler | /claimal = Claim block alma menüsünü açar"
+  - title: "Komutlar (economy)"
+    content: "/market = Ana mağaza arayüzünü açar | /ah = Açık artırma sekmesini açar | /order = Oyuncu siparişleri sekmesini açar"
+  - title: "Komutlar (warps)"
+    content: "/warp arena = PvP arenasına ışınlar | /warp fpsarena = Detaysız PvP arenasına ışınlar | /warp maden = Madene ışınlar | /warp buzyarışı = Buzyarışı etkinliği alanına ışınlar | /warp labirent = Labirent etkinliği alanına ışınlar | /warp ox = ox etkinliği alanına ışınlar | /warp pinata = Pinata etkinliği alanına ışınlar | /warp büyücü = Özel büyü yerine ışınlar | /warp elmacı = Altın elma takas alanına ışınlar | /warp envoy = Envoy etkinlik alanına ışınlar | /warp farmtakas = Özel ekin takas alanına ışınlar | /warp göktaşı = Göktaşı gezginine ışınlar | /warp jail = Hapis alanına ışınlar | /warp kaptan = Kaptana ışınlar | /warp kasa = Kasalara ışınlar | /warp mobcoin = Mobcoin takas alanına ışınlar | /warp sptakas = Spawner parçacık takas alanına ışınlar | /warp zindan = Zindan coinlerin takas alanına ışınlar | /warp tamir = Tamirciye ışınlar | /warp parkur = Parkur alanına ışınlar | /warp sezon = Sezon sıralamasına ışınlar | /warp spawn = Spawn bölgesine ışınlar | /warp duelarena1 = 1. Duel arenasına ışınlar | /warp duelarena2 = 2. Duel arenasına ışınlar | /warp duelarena3 = 3. Duel arenasına ışınlar | /warp duelarena4 = 4. Duel arenasına ışınlar | /warp duelarena5 = 5. Duel arenasına ışınlar | /warp duelarena6 = 6. Duel arenasına ışınlar | /warp duelarena7 = 7. Duel arenasına ışınlar"
+  - title: "SSS: Para nasıl kazanılır?"
+    content: "Para kazanmak için /görev yapabilir, /ödül ile günlük ödül alabilir veya /order üzerinden oyunculara eşya satabilirsin."
+  - title: "SSS: VIP nasıl alınır?"
+    content: "VIP paketlerini mağazamız üzerinden satın alabilirsin: https://knightnw.com/store"
+  - title: "SSS: Ev nasıl oluşturulur?"
+    content: "Bulunduğun yerde /sethome <isim> yazarak ev oluşturursun. /home <isim> ile geri dönersin."
+  - title: "SSS: PvP nerede atabilirim?"
+    content: "/warp arena komutuyla PvP arenasına ışınlanabilirsin. Diğer dünyalarda PvP kapalıdır."
+  - title: "SSS: Hile kullanan oyuncuyu nasıl şikayet ederim?"
+    content: "Discord sunucumuzdan veya web sitemiz üzerinden destek talebi oluşturarak yetkililere bildirebilirsin."
+  - title: "SSS: Yetkili nasıl olunur?"
+    content: "Moderasyon bilginin ve sabrının yeterli olduğunu düşünüyorsan yardımcı başvuru formu üzerinden başvuru yapabilirsin: https://knightnw.com/applications/forms/yardimci-basvurusu"
+  - title: "SSS: Sunucu IP'si nedir?"
+    content: "Sunucuya play.knightnw.com adresi üzerinden bağlanabilirsin."
+  - title: "SSS: Mobcoin nedir?"
+    content: "Mobcoin, mob kestikçe düşen özel bir coindir. /warp mobcoin üzerinden kullanabilirsin."
+  - title: "SSS: Kasa anahtarını nasıl kullanabilirim?"
+    content: "Sahip olduğun kasa anahtarına uygun kasayı /warp kasa üzerinden bulup sağ tıklayarak açabilirsin."
+  - title: "SSS: Crypt of Whispers anahtarını nasıl bulurum?"
+    content: "Oy kasasından elde edebilirsin veya moblardan düşen mobcoinleri kullanarak /warp mobcoin üzerinden Crypt of Whispers anahtarı alabilirsin."
+  - title: "SSS: Emberforge Depths anahtarını nasıl bulurum?"
+    content: "Crypt of Whispers zindanından çıkan Emberforge parçasını kullanarak /warp zindancoin üzerinden Emberforge Depths anahtarı alabilirsin."
+  - title: "SSS: Eclipse Sanctum anahtarını nasıl bulurum?"
+    content: "Emberforge Depths zindanından çıkan Eclipse özü ile /warp zindancoin üzerinden Eclipse Sanctum anahtarı alabilirsin."
+  - title: "SSS: Venomshade Catacombs anahtarını nasıl bulurum?"
+    content: "Eclipse Sanctum zindanından çıkan Venomshade kabuğunu kullanarak /warp zindancoin üzerinden Venomshade Catacombs anahtarı alabilirsin."
+  - title: "SSS: Claim nasıl atabilirim?"
+    content: "Claim oluşturmak için alanın en az 10x10 boyutunda olması gerekir. Her blok için 1 claim block gerekir. Altın kürek ile belirlediğiniz alanın köşelerine sağ tıklayarak claim oluşturabilirsin. Claim sınırını görmek için çubukla claiminizde bir alana sağ tıklamalısınız."
+  - title: "SSS: Dünyaya nasıl giderim?"
+    content: "/rtp komutunu kullanarak dünyada rastgele bir konuma ışınlanabilirsin."
+  - title: "SSS: Kurallara nereden bakabilirim?"
+    content: "/kurallar komutunu kullanarak sunucu kurallarını görüntüleyebilirsin."
+  - title: "SSS: Sunucuda ne kadar zaman geçirdiğime nasıl bakabilirim?"
+    content: "/profil komutu ile toplam oynama süreni ve genel istatistiklerini görebilirsin."
+  - title: "SSS: Destek talebi nasıl oluşturabilirim?"
+    content: "https://knightnw.com/support/tickets adresinden veya /discord komutu üzerinden destek talebi oluşturabilirsin."
+  - title: "SSS: Nether'a nasıl giderim?"
+    content: "/warp nether komutu ile Nether dünyasına gidebilirsin."
+  - title: "SSS: AFK Client nasıl kurulur?"
+    content: "AFK Client kurulumu hakkında detaylı bilgi almak için https://knightnw.com/knight-network-sunucusunda-afk-birakma bağlantısını inceleyebilirsin."
+  - title: "SSS: Nasıl oy verebilirim?"
+    content: "/oyver komutunu kullandıktan sonra çıkan bağlantılara gidip oyun içi kullanıcı adını girerek oy verebilirsin."
+  - title: "SSS: XP'lerle ne yapabilirim?"
+    content: "XP'lerini kullanmak için /xpmarket komutunu kullanabilirsin."
+  - title: "SSS: XP'lerimi nasıl şişeleyebilirim?"
+    content: "XP'lerini şişelemek için /expşişele <xp miktarı> komutunu kullanabilirsin."
+  - title: "SSS: Domates, biber ve soğan ekinlerini nereye satabilirim?"
+    content: "Kilolu özel ekinlerini /farmsat ile satabilirsin. Kilosuz olanları ise /warpfarmtakas'ta takaslayabilirsin."
+  - title: "SSS: Domates, biber ve soğan tohumlarını nasıl ekebilirim?"
+    content: "Tohumları sulu, çapalanmış ve ışık alan toprağa ekebilirsin."
+  - title: "SSS: Owarp nasıl kurabilirim?"
+    content: "/owarp create <warp ismi> komutu ile oyuncu warpı oluşturabilirsin. Owarp oluştururken hesabından 1000 TL çekilir."
+  - title: "SSS: Owarp nasıl silerim?"
+    content: "/owarp remove <warp ismi> komutunu kullanarak oyuncu warpını silebilirsin."
+  - title: "SSS: Komutları nereden görebilirim?"
+    content: "Komutlar hakkında detaylı bilgi almak için /bilgi komutunu kullanabilirsin."
+  - title: "SSS: Jackpot'a nasıl katılırım?"
+    content: "/jackpot komutu ile jackpot sistemine katılabilirsin."
+  - title: "SSS: Oyuncu marketinde nasıl eşya satarım?"
+    content: "Oyuncu marketinde eşya satmak için /om sat <fiyat> <adet> komutunu kullanabilirsin."
+  - title: "SSS: TPA nasıl atabilirim?"
+    content: "Bir oyuncuya ışınlanma isteği göndermek için /tpa <isim> komutunu kullanabilirsin."
+  - title: "SSS: Günlük ödül sistemi var mı?"
+    content: "Evet. /günlüködül komutu ile her 24 saatte bir rütbene uygun ödül alabilirsin."
+  - title: "SSS: Kilit nasıl atabilirim?"
+    content: "Eline bir tabela alıp sandık, spawner veya kapının üzerine yerleştir. İlk satıra [kilit], alt satıra ise oyun içi adını yazarak kilitleyebilirsin."
+  - title: "SSS: Göktaşı nedir?"
+    content: "Göktaşı, her 30 dakikada bir orman bölgesine rastgele düşen özel bir meteor etkinliğidir."
+  - title: "SSS: Göktaşı çekirdeğini nerede kullanabilirim?"
+    content: "Göktaşı çekirdeğini /warp göktaşı üzerinden kullanabilirsin."
+  - title: "SSS: Envoy nedir?"
+    content: "Envoy, her 2 saatte bir otomatik başlayan etkinliktir. /warp envoy bölgesine rastgele sandıklar düşer. Bu sandıkları açarak çeşitli ödüller kazanabilirsin."
+  - title: "SSS: Oyuncu warplarına nasıl bakabilirim?"
+    content: "/owarp komutu ile sunucudaki tüm oyuncu warplarını görüntüleyebilirsin."
+  - title: "SSS: Order sistemi var mı?"
+    content: "Evet. Sunucuda Order sistemi bulunmaktadır. /order komutu ile aktif siparişleri görüntüleyebilirsin."
+  - title: "SSS: Rütbe nasıl atlayabilirim?"
+    content: "/rütbeler üzerinden gerekli şartları tamamladıktan sonra /rankup komutunu kullanarak rütbe atlayabilirsin."
+  - title: "SSS: Rütbelere nasıl bakabilirim?"
+    content: "/rütbeler komutu ile sunucudaki tüm rütbeleri ve avantajlarını detaylı şekilde inceleyebilirsin."
+  - title: "SSS: Yetenek sistemi nasıl çalışır?"
+    content: "Yetenek sistemi seviyeniz arttıkça farklı özellikler kazandırır. Hangi aktivitelerin XP verdiğini ve yeteneklerin avantajlarını görmek için /yetenekler komutunu kullanabilirsin."
+  - title: "SSS: Discord sunucusunun linki nedir?"
+    content: "discord.gg/knightnw ile Discord sunucusunun ulaşabilirsin."
+  - title: "SSS: Site linki nedir?"
+    content: "https://knightnw.com/ ile web sitemize ulaşabilirsin."
+  - title: "SSS: Meslek sistemi var mı?"
+    content: "Hayır. Meslek sistemi yerine sunucuda görev sistemi bulunmaktadır. /görev üzerinden görev yaparak para kazanabilirsin."
+  - title: "SSS: Tab listesindeki oyuncuların yanında duran şekiller nedir?"
+    content: "Oyuncu etiketlerini ve rozetlerini görmek için /tag komutunu kullanabilirsin."
+  - title: "SSS: VIP'lerde hangi özellikler var?"
+    content: "/vip komutu ile VIP paketlerinin avantajlarını detaylı şekilde inceleyebilirsin."
+  - title: "SSS: Kilosuz domates, biber ve soğanları nerede kullanabilirim?"
+    content: "Kilosuz özel ekinleri /warp farmtakas üzerinden takas edebilirsin."
+  - title: "SSS: Spawner parçacığı ne işe yarar?"
+    content: "Spawner parçacıkları ile /warp sptakas üzerinden spawner alabilirsin."
+  - title: "SSS: Claim taşı ne işe yarar?"
+    content: "Claim taşına sağ tıklayarak hesabına rastgele miktarda claim block ekleyebilirsin."
+  - title: "SSS: Donarak ölüyorum, nasıl kurtulabilirim?"
+    content: "Soğuk biyomdan çıkarak veya deri zırh giyerek donma etkisinden korunabilirsin."
+  - title: "SSS: Önceden verdiğim oy ödüllerini nasıl alabilirim?"
+    content: "/ödüllerim komutu ile biriken oy ödüllerini alabilirsin."
+  - title: "SSS: Spawner parçacığını nasıl bulabilirim?"
+    content: "Spawner parçacıklarını /warp kasa, /warp farmtakas, zindanlar ve envoy etkinlikleri gibi çeşitli sistemlerden elde edebilirsin."
+  - title: "SSS: Gece Pazarı nedir?"
+    content: "Gece Pazarı, her gece 00:00 ile 06:00 saatleri arasında açılan özel markettir. Bu markette indirimli veya normalde sunucuda bulunmayan özel ürünler satılır."
+  - title: "SSS: Balıkları nereye satabilirim?"
+    content: "Kilolu balıkları /balıksat komutu üzerinden satabilirsin."
+  - title: "SSS: Teslimat sistemi nedir?"
+    content: "Teslimat sistemi, belirlenen ürünleri teslim ederek aylık sıralamada dereceye girerek kredi ödülü elde edebildiğin bir sistemdir."
+  - title: "SSS: Sunucuda özel büyüler var mı?"
+    content: "Evet. Sunucuda birçok özel büyü bulunmaktadır. Detaylı incelemek için /büyücü komutunu kullanabilirsin."
+  - title: "SSS: Özel büyü kitaplarını nasıl birleştirebilirim?"
+    content: "Aynı türdeki büyü kitaplarını /simyacı üzerinden birleştirerek seviyelerini yükseltebilirsin."
+  - title: "SSS: En son öldüğüm yere nasıl ışınlanabilirim?"
+    content: "Öldükten sonra sohbet ekranında çıkan ışınlanma mesajına tıklayarak son öldüğün yere gidebilirsin."
+  - title: "SSS: Claim attığım yere /sethome atmayı unuttum, nasıl geri dönebilirim?"
+    content: "/claim komutu ile claimine ışınlanabilirsin."
+  - title: "SSS: Çiftçi ne işe yarar?"
+    content: "Çiftçi, claimin içerisinde yere düşen belirli ürünleri otomatik olarak toplayan özel bir sistemdir."
+  - title: "SSS: Çiftçiyi nereden alabilirim?"
+    content: "Çiftçiyi /market üzerinden satın alabilirsin."
+  - title: "SSS: Owarp açma hakkımı artırabilir miyim?"
+    content: "Evet. /market üzerinden ek owarp hakkı satın alabilirsin."
+  - title: "SSS: Sandık market nasıl kurabilirim?"
+    content: "Satmak istediğin ürünü eline alıp sandığa vurduktan sonra sohbet ekranına ürünün adet fiyatını yazarak sandık market oluşturabilirsin. Marketi alış moduna geçirmek için sandığa bakarak /qs buy komutunu kullanabilirsin."
+  - title: "SSS: Hologram sohbeti nasıl açabilirim?"
+    content: "/cb on komutu ile hologram sohbetini açabilirsin."
+  - title: "SSS: Hologram sohbeti nasıl kapatabilirim?"
+    content: "/cb off komutu ile hologram sohbetini kapatabilirsin."
+  - title: "SSS: Sethome'mi nasıl silebilirim?"
+    content: "/delhome <isim> komutu ile önceden oluşturduğun ev kaydını silebilirsin."
+  - title: "SSS: Spawner nasıl kazanabilirim?"
+    content: "Spawner kazanmanın birçok yolu vardır. Envoy etkinliğinden kazanabilirsin, spawner parçacıkları ile /warp sptakas üzerinden alabilirsin, kasalardan kazanabilirsin, domates, soğan ve biber ekinleri ile /warp farmtakas üzerinden alabilirsin veya sitemiz üzerinden satın alabilirsin."
+  - title: "SSS: Birlik nasıl oluşturabilirim?"
+    content: "/birlik create <birlik ismi> komutu ile birlik oluşturabilirsin."
+  - title: "SSS: Birliğime birini nasıl davet edebilirim?"
+    content: "/birlik invite <oyuncu ismi> komutu ile birliğine oyuncu davet edebilirsin."
+  - title: "SSS: Birliğimi nasıl silebilirim?"
+    content: "/birlik disband komutu ile birliğini silebilirsin."
+  - title: "SSS: Claimimde bir oyuncuya nasıl yetki verebilirim?"
+    content: "/trust <oyuncu ismi> komutu ile üstünde durduğun claimde oyuncuya yetki verebilirsin."
+  - title: "SSS: Bir oyuncuyu claimimden nasıl yasaklayabilirim?"
+    content: "/claimban <oyuncu ismi> komutu ile üstünde durduğun claimden oyuncuyu yasaklayabilirsin."
+  - title: "SSS: Görev etkinliği nedir?"
+    content: "Görev etkinliği her saat başı gerçekleşir ve oyunculara rastgele görevler verilir. Görevi en başarılı şekilde tamamlayan oyuncuya değerli ödüller verilir. Ödüllerin detaylarını /bilgi komutu üzerinden görebilirsin."
+  - title: "SSS: Zindandan neler kazanılıyor?"
+    content: "Her zindanda bulunan ganimetler farklıdır. Tüm zindanların ganimetlerini /zindan komutu üzerinden görebilirsin."
+  - title: "SSS: Birine nasıl mesaj gönderebilirim?"
+    content: "Bir oyuncuya /msg <oyuncu ismi> <mesaj> komutu ile özel mesaj gönderebilirsin."
+  - title: "SSS: Eşyamı nasıl tamir edebilirim?"
+    content: "Hasar almış eşyanı elinde tutarak /repair komutunu kullanıp eşyanı tamir edebilirsin."
+  - title: "SSS: Duel nedir?"
+    content: "Düello sistemi, sunucunun sana verdiği kitler ve düellolara özel olan arenalarda PvP atabileceğin bir alandır."
+  - title: "SSS: Kit nasıl alabilirim?"
+    content: "Mevcut rütbene uygun kiti görüntülemek ve almak için /kit komutunu kullanabilirsin."
+  - title: "SSS: Kaç tane sethome kurabilirim?"
+    content: "Oyuncuların başlangıçta 1 adet sethome kurma hakkı vardır. Bu hakkını rütbe atlayarak veya VIP alarak artırabilirsin. Detaylı bilgi için /rütbeler ve /vip menülerine göz atabilirsin."
+  - title: "SSS: Ölünce eşyalarım yere düşer mi?"
+    content: "Survival dünyasında ölürsen eşyaların yere düşer."
+  - title: "SSS: Claim içinde savaş açık mı?"
+    content: "Hayır, claim içerisinde oyuncuların birbirine vurması kapalıdır. Ancak claim dışında savaşa girersen claim içerisinde PvP devam eder."
+  - title: "SSS: Claimimi kaldırınca claim blocklar geri gelir mi?"
+    content: "Evet, claimini kaldırman durumunda claim blockların sana geri verilir."
+  - title: "SSS: Claimfly nasıl alabilirim?"
+    content: "Claimfly'ı oy kasasından, diğer oyunculardan veya /günlüködül sistemi üzerinden elde edebilirsin."
+  - title: "SSS: Zindanda ölürsek itemler gidiyor mu?"
+    content: "Hayır, zindanda öldüğünde itemlerin yere düşmez."
+  - title: "SSS: Zindan coinlerini nerede kullanabilirim?"
+    content: "Zindanlardan bulduğun zindan coinlerini /warp zindan alanında kullanabilirsin."
+  - title: "SSS: Göktaşı nereye düşmüş nasıl bakabilirim?"
+    content: "Göktaşı düştüğü zaman oyun sohbeti içerisinde göktaşının düştüğü koordinat bilgisi paylaşılır."
+  - title: "SSS: Göktaşına geldim ancak sandık yok?"
+    content: "Bazı göktaşlarında sandık olmayabiliyor. Sandık çıkma oranı tamamen rastgele şansa bağlıdır."
+  - title: "SSS: Birlik seviyemi nasıl arttırabilirim?"
+    content: "Birlik seviyesini arttırmak için birlik skoru kasman gerekir. Birlik skoru oyuncu öldürerek kazanılır. Birliğinin kaç skoru olduğunu /birlik info <birlik ismi> komutu ile görebilirsin."
+  - title: "SSS: Birlikte en fazla kaç kişi oluyor?"
+    content: "Birliklerde başlangıçta en fazla 10 üye bulunabilir. Bu miktarı birliğinin seviyesini yükselterek artırabilirsin."
+  - title: "SSS: AH'taki eşyanın süresi bitince nereye gidiyor?"
+    content: "Oyuncu marketine koyduğun eşyanın süresi bittiğinde /ah içerisinde bulunan depoya gider."
+  - title: "SSS: Spawner seviyesi nasıl arttırılır?"
+    content: "Aynı türden spawnerları Shift + sağ tık yaparak üst üste koyabilir ve spawner seviyesini arttırabilirsin. Seviye arttırmanın üretim hızına etkisi yoktur, sadece daha az yer kaplamasını sağlar."
+  - title: "SSS: Spawnerı kırmak için ipeksi gerekiyor mu?"
+    content: "Hayır, herhangi bir kazma ile spawnerı kırabilirsin ve spawner yere düşer."
+  - title: "SSS: Doğada spawner bulunuyor mu?"
+    content: "Hayır, doğada spawner bulamazsın. Spawnerlar envoy, spawner parçacıkları, domates/soğan/biber takası, kasalar veya oyuncular üzerinden elde edilebilir."
+  - title: "SSS: Özel büyü kitaplarını nasıl alabilirim?"
+    content: "Özel büyü kitaplarını /büyücü üzerinden satın alabilirsin."
+  - title: "SSS: Özel büyü kitaplarının başarı oranını arttırmanın bir yolu var mı?"
+    content: "Evet, özel büyü kitaplarının başarı oranını gizemli toz kullanarak arttırabilirsin."
+  - title: "SSS: Gizemli toz nedir?"
+    content: "Gizemli toz, özel büyü kitaplarının başarı oranını arttırmaya yarayan bir tozdur. /büyücü üzerinden satın alabilir ve kitabına sağ tıklayarak başarı oranını yükseltebilirsin."
+  - title: "SSS: Domates, biber ve soğan tohumlarını nereden alabilirim?"
+    content: "Domates, biber ve soğan tohumlarını kasalardan, envoy etkinliğinden, oyunculardan veya /warp mobcoin üzerinden elde edebilirsin."
+  - title: "SSS: Domates, biber ve soğan tohumları kaç dakikada büyüyor?"
+    content: "Domates, biber ve soğan tohumları yaklaşık 10 dakika içerisinde olgunlaşır. Tohumun üzerine sağ tıklayarak kalan süreyi görebilirsin."
+  - title: "SSS: Gece pazarı saat kaçta açılıyor?"
+    content: "Gece Pazarı her gün 00:00 ile 06:00 saatleri arasında oyuncuların kullanımına açılır."
+  - title: "SSS: Claimimde birinin yetkisini nasıl kaldırırım?"
+    content: "/untrust <oyuncu ismi> komutu ile claimindeki oyuncunun yetkisini kaldırabilirsin."
+  - title: "SSS: Claimimde kimlerin yetkisi olduğunu nasıl görebilirim?"
+    content: "/trustlist komutu ile claimindeki yetkili oyuncuları görüntüleyebilirsin."
+  - title: "SSS: Birlikten nasıl çıkarım?"
+    content: "/birlik leave komutu ile mevcut birliğinden ayrılabilirsin."
+  - title: "SSS: Birlik müttefikliği nasıl yapılır?"
+    content: "/birlik ally <birlik ismi> komutu ile başka bir birliğe müttefiklik isteği gönderebilirsin."
+  - title: "SSS: Bir klanı müttefiklikten nasıl çıkarabilirim?"
+    content: "/birlik neutral <birlik ismi> komutu ile müttefik olduğun klanı nötr hale getirebilirsin."
+  - title: "SSS: Evime nasıl ışınlanırım?"
+    content: "/home <isim> komutu ile kayıt ettiğin evine ışınlanabilirsin."
+  - title: "SSS: TPA isteğini nasıl kabul ederim?"
+    content: "/tpaccept komutu ile gelen ışınlanma isteğini kabul edebilirsin."
+  - title: "SSS: TPA isteğini nasıl reddederim?"
+    content: "/tpdeny komutu ile gelen ışınlanma isteğini reddedebilirsin."
+  - title: "SSS: AH'ye yanlış eşya koydum nasıl kaldırabilirim?"
+    content: "/ah menüsünde bulunan sattığın eşyalar kısmından satışa koyduğun eşyanın üzerine tıklayarak iptal edebilirsin."
+  - title: "SSS: Başka oyuncuya nasıl para gönderebilirim?"
+    content: "/pay <oyuncu ismi> <miktar> komutu ile başka oyunculara para gönderebilirsin."
+  - title: "SSS: Spawner çalışmıyor neden?"
+    content: "Her spawnerın çalışma gereksinimi farklıdır. Işık, karanlık, su veya özel blok gereksinimlerini kontrol etmelisin."
+  - title: "SSS: Çiftçinin deposunu nasıl açarım?"
+    content: "Çiftçiye sağ tıklayarak deposunu açabilirsin."
+  - title: "SSS: Çiftçi koydum ama gözükmüyor, menüsünü nasıl açabilirim?"
+    content: "Çiftçinin bulunduğu claimde /çiftçi komutunu kullanarak menüsünü açabilirsin."
+  - title: "SSS: Mana ne işe yarar?"
+    content: "Mana, /yetenekler bölümünde bulunan özel yetenekleri kullanmana yarar."
+  - title: "SSS: Discord hesabımı nasıl bağlarım?"
+    content: "/hesapeşle komutunu yazdıktan sonra sohbete gelen kodu Discord sunucumuzdaki KNIGHTNW botuna özel mesaj olarak göndererek hesabını bağlayabilirsin."
+  - title: "SSS: Oyun hesabımı eşleyince ödül kazanıyor muyum?"
+    content: "Evet, /discordödül menüsünden hesabını eşlediğinde kazanacağın ödülleri görüntüleyebilirsin."
+  - title: "SSS: Göktaşı ne kadar kalıyor?"
+    content: "Göktaşı düştükten sonra 2 saat boyunca haritada aktif olarak kalır."
+  - title: "SSS: Jackpot neden başlamıyor?"
+    content: "Jackpot etkinliğinin başlayabilmesi için en az 2 oyuncunun katılmış olması gerekir."
+  - title: "SSS: Envoy kaç saatte bir oluyor?"
+    content: "Envoy etkinliği her 2 saatte bir otomatik olarak başlar."
+  - title: "SSS: Voteparty nedir?"
+    content: "Sunucuda toplam 100 oy verildiğinde otomatik olarak başlayan bir etkinliktir ve oyunculara envanter ödülleri verir."
+  - title: "SSS: Claim block nasıl kazanırım?"
+    content: "Claim block aktif oynayarak saatlik olarak kazanılabilir, oy vererek elde edilebilir, kasalardan çıkabilir veya mağazamız üzerinden satın alınabilir."
+  - title: "SSS: Yetenek yükseltmelerini nereden elde edebilirim?"
+    content: "Yetenek yükseltmelerini /warp kasa üzerinden elde edebilirsin."
+  - title: "SSS: Sandıkları kolay satmanın bir yolu var mı?"
+    content: "/sandıksatar ile içinde eşya olan sandıklarını tek vuruşla direkt markete satabilirsin."
+  - title: "SSS: Yetenek yükseltmeleri ne işe yarar?"
+    content: "Yetenek yükseltmeleri, üzerinde yazan yetenek alanlarında daha fazla XP kazanımı sağlar."
+  - title: "SSS: Netherite kırdım ancak çürük diyor nedir bu?"
+    content: "Kırdığınız netheritelar arasından rastgele bir şansla çürük netheritelar çıkabilir. Bunlar envanterinize gelmez ve yok olur."
+  - title: "SSS: Para nasıl kazanabilirim?"
+    content: "Para kazanmanın birçok yolu vardır. Bunlardan bazıları: /görev yapmak, /order komutu ile oyunculara eşya satmak ve spawner farmı kurmaktır."
+  - title: "Etkinlik: Envanter Eventi"
+    content: "Zaman: Her gün 18:00 ve 20:00 saatlerinde otomatik. Ödül: Aktif tüm oyunculara 2 adet Event Kasa Anahtarı, 6 adet Avcı Kasa Anahtarı, 12 adet Elmas, 32 adet Demir, 4 adet Zümrüt, 24 adet Altın"
+  - title: "Etkinlik: Vote party"
+    content: "Zaman: Her 100 vote verildiğinde otomatik. Ödül: Aktif tüm oyunculara 2 adet Event Kasa Anahtarı, 6 adet Avcı Kasa Anahtarı, 12 adet Elmas, 32 adet Demir, 4 adet Zümrüt, 24 adet Altın"
+  - title: "Etkinlik: Envoy"
+    content: "Zaman: 2 saatte 1 kere. Ödül: Rastgele ganimetler çıkmaktadır"
+  - title: "Etkinlik: Saatlik Görev Etkinliği"
+    content: "Zaman: Saatte 1 kere. Ödül: Rastgele ödüller"
+  - title: "Eşya veya envanterini sohbete yansıtma (ShowItem)"
+    content: "Elindeki eşyayı sohbete yansıtmak için [item], envanterini sohbete yansıtmak için [inv] yazabilirsiniz."
+  - title: "Sunucuda elde edilemeyen şeyler"
+    content: "Sunucuda ölümsüzlük totemi, kitap ve kalem yapamaz ve wither spawnlayamazsınız."
+  - title: "Altın kürek ve çubuk"
+    content: "Oyuncular claim atarken kullanabilmek için gereken altın küreği ve claim sınırlarını bulmak için gereken çubuğu /kit yazıp claim kitine tıklayarak alabilirler."
+
+systems:
+  - title: "Ek Bilgiler"
+    content: |
+      - Sunucumuz 24/7 çevrimiçidir.
+      - Eşyalarını koruman için /sethome ile evini kaydet.
+      - Sunucumuzda skyblock, factions ve survival oyun modları vardır ama sen şu anda survival oyun modundasın.
+      - Diğer oyun modlarına geçmek için /lobi yazabilirsin.
+
+  - title: "Envoy Etkinliği"
+    content: |
+      envoy 2 saatte 1 olmaktadır.
+      Envoy'a katılmak için /warp envoy yazabilirsiniz.
+      Rastgele yerlere sandıklar düşmektedir. Bu sandıklara tıklayarak açarak rastgele değerli eşyalar kazanabilirsiniz.
+
+  - title: "Zindan Sistemi"
+    content: |
+      4 adet zindan bulunmaktadır Zindanlar birbirine bağlı ilerleyen bir sistemdir ve her zindan bir sonrakinin anahtarını üretmek için kullanılır
+      Zindanlarda ilerlemek için mobları kesmeniz gerekir
+      
+      Crypt of Whispers zindanı
+      Zindana Crypt of Whispers anahtarına sağ tıklanarak girilir
+      Moblardan düşen Mobcoin’ler /warp mobcoin üzerinden zindan coin takasında birleştirilerek Crypt of Whispers anahtarı elde edilir
+      İçerisinden Netherite hurdası, spawner parçacığı, değerli cevherler, event ve avcı kasaları, çömlek parçaları, demirci şablonları, sınama anahtarları, XP iksiri, ok türleri, mobcoin gibi
+      ganimetler çıkar
+      
+      Emberforge Depths zindanı
+      Zindana Emberforge Depths anahtarına sağ tıklanarak girilir
+      Crypt of Whispers zindanında düşen Emberforge parçası toplanır ve /warp zindancoin üzerinden zindan coin sistemi ile birleştirilerek Emberforge Depths anahtarı üretilir
+      İçerisinden Netherite hurdası, spawner parçacığı, değerli cevherler, event ve avcı kasaları, çömlek parçaları, XP iksiri ,ender incisi ,shulker kabuğu gibi ganimetler çıkar
+      
+      Eclipse Sanctum zindanı
+      Zindana Eclipse Sanctum anahtarına sağ tıklanarak girilir
+      Anahtar Emberforge Depths zindanından düşen Eclipse özü toplanır ve /warp zindancoin üzerinden zindan coin sistemi ile birleştirilerek Eclipse Sanctum anahtarı üretilir.
+      İçerisinden Netherite hurdası ,spawner parçacığı, değerli cevherler, event ve avcı kasaları, çömlek parçaları, XP iksiri, ender incisi, shulker kabuğu, büyülü altın elma, gürz ve mızrak
+      gibi ganimetler çıkar
+      
+      Venomshade Catacombs zindanı
+      Zindana Venomshade Catacombs anahtarına sağ tıklanarak girilir
+      Eclipse Sanctum zindanından düşen Venomshade kabuğu toplanır ve /warp zindancoin üzerinden zindan coin sistemi ile birleştirilerek Venomshade Catacombs anahtarı üretilir
+      İçerisinden Netherite hurdası ,spawner parçacığı, değerli cevherler, event ve avcı kasaları, çömlek parçaları, XP iksiri, ender incisi, shulker kabuğu, büyülü altın elma, gürz ve mızrak
+      gibi ganimetler çıkar
+
+  - title: "Mevsim Sistemi"
+    content: |
+      4 adet mevsim bulunmaktadır her mevsimin farklı özellikleri vardır mevsimden mevsime orman renk değiştirir mevsimler 30 oyun günü sürmektedir
+      
+      Kış Mevsimi oyun modu zora alınır kurtlar, tilkiler, kardan adamlar, ve kutup ayıları doğar iskeletler serseriye dönüşür buz ve kar gibi yerlerde donabilirsiniz ateş gerekir
+      mahsülleriniz dışarda büyümez kapalı alan gerekir
+      
+      İlkbahar Mevsimi oyun modu normal moda alınır daha fazla arılar, tavşanlar ve zararsız hayvanlar doğar
+      
+      Yaz Mevsimi oyun modu kolay moda alınır oselolar, pandalar ve papağanlar doğar zombiler zombi kurusuna dönüşür
+      
+      Sonbahar Mevsimi oyun modu normal moda alınır yarasalar, örümcekler, tilkiler moshroomlar, ve kurbağalar doğar yaratıklar balkabağı verir
+
+      Bu mevsimlerde doğan moblar sadece o mobların doğacağı anlamına gelmiyor. Normal survivalda doğan moblarda doğmaktadır.
+
+  - title: "Göktaşı Sistemi"
+    content: |
+      Göktaşı 30 dakikada bir ormana düşen içinde değerli maden ve eşyaların bulunduğu bir sistemdir
+      Göktaşı düştükten 2 saat sonra kaybolur
+      Her gök taşının içinden sandık çıkmaz
+      Sandık olan göktaşlarını koruyan bir boss vardır
+      Göktaşları claimli alanlara düşüp zarar vermez
+      Göktaşının düştüğü koordinat sohbete iletilir
+
+  - title: "Birlik Sistemi"
+    content: |
+      Birlik sistemi aynı birlikte bulunan oyuncuların birbirine vurmasını engeller oyuncular bu sistem ile kendi birliklerini kurabilir müttefiklik yapabilir ve diğer birliklerle savaşlara
+      katılabilir
+      Birlik oluşturmak için oyuncudan 1.000 oyun bakiyesi alır
+      Birliklerde en fazla 10 kişi bulunabilir bu miktar birliğin seviyesini yükselterek arttırılabilir
+      Birliğin seviyesini yükseltmek için 100 birlik skoru gerekir bu skor ise oyuncu öldürürerek kazanılır her oyuncu öldürüşünüzde 1 birlik skoru kazanırsınız
+      Birlikteki oyuncuların görebileceği warp ve homeler oluşturabilirsiniz
+      Birliklere özel birlik sohbeti ve birlik müttefikleri sohbeti olmak üzere 2 ayrı sohbet bulunur
+      özel birlik sohbetine sadece birlikteki oyuncular yazı yazabilir ve görebilir
+      Birlik müttefikleri sohbetine ise birlikteki oyuncular ve birliğin müttefikleri yazı yazabilir ve görebilir
+
+  - title: "Claim (Arazi) Sistemi"
+    content: |
+      Claim sistemi oyuncuların survival dünyasında kendilerine özel güvenli alan oluşturmasını sağlar claim içinde yetkisi olmayan oyuncular bloklara zarar veremez/erişemez
+      Claimli alanlarda PvP kapalıdır Ancak claim dışında başlayan PvP devam ediyorsa oyuncular claim içine girse bile PvP devam edebilir
+      Claim oluşturmak için claim block gereklidir. claim blocklar aktif oynama süresine göre rütbeye bağlı olarak saatlik verilir kasalardan elde edilebilir veya oyun içi/site üzerinden
+      satın alınabilir
+      Her 1 blokluk alan için 1 claim block gerekir claim atılabilmesi için alanın en az 10x10 blok olması zorunludur
+      Oyuncular claim içerisinde claim fly sistemi ile uçabilir
+      Başka oyuncuların claimindeki zararlı/zararsız moblara hasar verilebilir
+
+  - title: "Özel Büyüler"
+    content: |
+      Özel büyüler saldırı savunma ve alet büyüleri olmak üzere 3 kategoriye ayrılır
+      Özel büyü kitapları 60.000 EXP ve 30.000 para karşılığında elde edilir her büyü rastgele verilir ve eşyaya uygulanırken başarı veya başarısızlık ihtimali bulunur
+      Büyülerin başarı oranını artırmak için gizemli toz kullanılabilir gizemli tozlar 75.000 EXP karşılığında alınır ve aynı seviyedeki 2 gizemli toz birleştirilerek daha yüksek seviyeli
+      gizemli toz elde edilir
+      Her büyünün ulaşabileceği maksimum bir seviye vardır aynı tür ve seviyedeki 2 büyü kitabı /simyacı üzerinden birleştirilerek daha yüksek seviyeli büyü kitabı oluşturulabilir
+      Bir eşyaya başlangıçta en fazla 3 özel büyü uygulanabilir bu limit slot arttırıcı kullanılarak maksimum 6 slota kadar yükseltilebilir
+      Slot arttırıcılar 4 slot 5 slot ve 6 slot olarak ayrılır ayrıca alet saldırı ve zırh büyüleri için farklı slot arttırıcı türleri bulunmaktadır
+      Slot arttırıcıların da başarı ve başarısızlık ihtimali vardır bu başarı oranı artırılamaz
+
+  - title: "Vote Party"
+    content: |
+      Sunucuda her 100 vote verildiğinde otomatik olarak envanter eventi başlar
+      Her eventte bu sayaç sıfırlanır
+
+  - title: "Mobcoin"
+    content: |
+      Mob kestikçe rastgele bir oranla içerisinden mobcoin çıkar
+      Bu coin /warp mobcoin de kullanılır
+
+  - title: "Özel Tohumlar"
+    content: |
+      Özel tohumlar Soğan, Biber, Domates olmak üzere 3 e ayrılır
+      Tohumlar ekildikten 10 dakika sonra olgunlaşır ve hasata hazır hale gelir
+      Bu tohumlar ışıklı çapalı ve sulu bir yere ekilir
+      İçerlerinden Domates, Soğan, ve Yeşil Biber, Kırmızı Biber, Turuncu Biber çıkar
+      Bu ekinler arasında kilolu olanlar /farmsat a satılabilir
+      Kilosuz olanlar ise /warp farmtakas ta kullanılır
+      Tohumlar etkinliklerden kasalardan veya /warp mobcoin den elde edilir
+
+  - title: "Teslimat Sistemi"
+    content: |
+      Teslimat sistemi Mob Öldürme, Maden, Tarım, ve Balık olarak 4 sabit kategori üzerinden ilerler Bu kategorilerden 1 tane aylık olarak değişmektedir o ay kategoride ne olacağına yetkililer
+      karar verir
+      /teslimat ile en çok kategorisine göre ürün teslim eden ilk 3 oyuncuya site kredisi ödülü verilir
+      Teslimat sistemi her ay sıfırlanır ve yeniden başlar
+      Değişebilen kategoride genelde rekabeti dengeleyebilmek için yeni oyuncularında kolay bir şekilde kasabileceği bir eşya olur
+
+  - title: "Owarp Sistemi"
+    content: |
+      Owarplar oyuncuların kendi claimine kurabildiği özel warp ışınlanma alanlarıdır
+      Diğer oyuncular /owarp komutuyla bu owarpları görüp gelerek eşya satın alabilir veya eşya satabilir
+
+  - title: "Açık Artırma (AH)"
+    content: |
+      Oyuncuların eşyalarını satışa çıkarabileceği bir sanal markettir
+      Oyuncu /om sell fiyat adet komutu ile eşyasını satışa çıkarabilir
+      Diğer oyuncular ise /ah komutu ile bu eşyaları görüp kendilerine uygun olanları satın alabilir
+      Oyuncu marketine eşya koymanın sınırı vardır bu sınır vip veya rank alarak arttırılabilir
+      Her eşyanın markette durma süresi vardır bu süre dolduğunda eşya oyuncunun /ah üzerinde bulunan deposuna taşınır
+      Depodan belirli bir süre içerisinde almaz ise eşya yok olur
+
+  - title: "Order Sistemi"
+    content: |
+      /order Oyuncuların istediği eşyayı satın almak için ilan oluşturduğu sekmedir
+      Burada oyuncular istediği ürünü seçerek adet başına kaç tl vereceğini belirleyebilir
+      Diğer oyuncular ise /order komutu ile bu sekmeyi açarak kendilerine uygun olan eşyayı bulup kasarak buraya satabilir
+
+  - title: "Rütbeler (Detay)"
+    content: |
+      Rütbeler 12 rütbe olmak üzere ayrılır
+      İsimleri Gezgin, Savaşçı, Korucu, Komutan, Muhafız, Kumandan, Akıncı, Bilirkişi, Şanlı, Efsane, Yüce, Kadim'dir
+      Rütbe atlamak için /rütbe menüsünde olan gerekli koşulları sağlamak gerekir daha sonra 2 kere /rankup yazarak diğer rütbeye yükselebilirsiniz
+      Her rütbenin farklı özellikleri ve avantajları vardır
+
+  - title: "VIP Paketleri"
+    content: |
+      Vipler 6 vip olmak üzere ayrılır
+      İsimleri VIP, VIP+, MVIP, KVIP, KVIP+ ve Sponsor'dur
+      Vipler sadece site üzerinden satın alınabilir oyun içerisinden elde edilemez
+      Her vipin farklı özellikleri ve avantajları vardır
+
+  - title: "Oy Verme"
+    content: |
+      Oyuncu her siteden oy verdiğinde kendisine 50 claim block ve 1 adet oy kasası anahtarı verilir
+      Oyuncu her siteden oy verdiğinde /oyserisi üzerinde ilerleme sağlar bu ilerlemesi sayesinde farklı ödüller kazanır
+
+  - title: "Hesap Eşleme"
+    content: |
+      Oyuncu /hesapeşle komutunu kullanarak oyun hesabı ile discord hesabını eşleyebilir bu sayede discord sunucusu üzerinden onaylı üye ve vipi varsa vipine göre bir rol sahibi olur
+      Discord üzerinden destek talebi oluşturabilmek için hesapeşle yapılması gerekir
+
+  - title: "Kasa Anahtarları"
+    content: |
+      Kasalar 7 adet farklı kasa olmak üzere ayrılır
+      Gizemli Kasa, Mistik Kasa, Spawner Kasa, Büyü Kasa site üzerinden satın alınır
+      Event Kasa, Avcı Kasa oyun içi etkinliklerden ve zindandan kazanılır
+      Oy Kasası sunucuya oy verdiğinizde kazanılır
+      Her kasanın ödülü farklıdır
+
+  - title: "Spawnerlar"
+    content: |
+      Sunucuda toplam 15 adet spawner bulunmaktadır Spawnerlar zararsız ve zararlı olmak üzere 2 kategoriye ayrılır
+      Zararsız spawnerlar Koyun, İnek, Tavuk, Domuz, Mooshroom, Mürekkep Balığıdır
+      Zararsız mob spawnerlarının çalışması için çimli ve aydınlık bir alan gerekir Mooshroom spawnerı için miselyum bloğu Mürekkep Balığı spawnerı için su gereklidir Golem ve Bakır Golem
+      spawnerları ise sadece aydınlık bir alanda çalışır
+      Zararlı spawnerlar Zombi, İskelet, Örümcek, Mağara Örümceği, Creeper, Blaze, Zombileşmiş Piglin spawnerlarıdır
+      Zararlı mob spawnerlarının çalışması için karanlık bir ortam gereklidir
+      Spawnerlar ormanda spawnlanmaz. Minecarftın yapısında böyle bir özellik var fakat sunucu özelliği olarak tamamen kaldırılmıştır. Yani ormanda rastgele yerlerde spawner bulamazsınız. (Moblar bulunur sadece spawner bulunmaz.)
+
+  - title: "Balıkçılık"
+    content: |
+      Sunucuda normal minecrafttan farklı bir balık tutma sistemi vardır
+      Tutulan balıklar kiloluk olarak gelir ve denizden balık tutarken ganimet dolu varil tutma şansı vardır
+      Her biom için farklı balık türleri vardır
+      Kilolu balıkları /balık sat ile satarak kilosuna göre para kazanılabilir
+      /balıkçılık ile tuttuğunuz tüm balıkları görebilirsiniz
+
+  - title: "Düello"
+    content: |
+      Oyuncuların anlaşmalı bir şekilde sunucunun oluşturduğu kitler ve arenalarda pvp atabileceği bir sistemdir
+
+  - title: "Sandık Market"
+    content: |
+      Oyuncuların sandık üstünden eşya satmasına yarayan bir sistemdir
+      Bu sistemde alış ve satış yapılabilir
+
+  - title: "Görev Sistemi"
+    content: |
+      Görevler Madencilik Avcılık Tarım Toplayıcılık ve Günlük Görev olmak üzere 5 e ayrılır
+      Madencilik görevleri maden kazılarak tamamlanır
+      Avcılık görevleri mob öldürerek tamamlanır
+      Tarım görevleri tarım yaparak tamamlanır
+      Toplayıcılık görevleri doğadan eşya toplayarak tamamlanır
+      Günlük görevlerde ise her gün belirlenen 3 ürünü /günlükgörev sistemine teslim ederek tamamlanır
+      Her görev türünde ilerledikçe kazanılan para miktarı artar
+
+  - title: "Çiftçi Sistemi"
+    content: |
+      Çiftçi /market üzerinden 50.000 oyun parası karşılığında satın alınabilir
+      Çiftçi koyduğunuz claimde deposunda olan yere düşen eşyaları otomatik olarak deposuna toplar
+      Bu depo üzerinden ürünü envanterinize alabilir veya direkt olarak çiftçinin deposu üzerinden satabilirsiniz
+      Ürünleri çiftçinin deposu üzerinden satmanız durumunda kazandığınız paranın %1 ini çiftçi komisyon olarak alır
+      Çiftçinin toplamda 7 seviyesi bulunmaktadır
+      Seviyesi arttıkça çiftçinin satışlardan alacağı komisyon miktarıda her seviyede %1 artacak şekilde artmaktadır
+      Seviyesi arttıkça çiftçinin depolama miktarıda 100 , 1000 , 10.000 , 20.000 , 50.000 , 100.000 , 250.000 olacak şekilde her seviyede artmaktadır
+      Çiftçinin deposunda otomatik farmı yapılan bambu, balkabağı, şeker kamışı gibi ürünler bulunmaz
+
+  - title: "Kozmetikler"
+    content: |
+      Kozmetikler belirli rütbelerin ve viplerin erişebildiği özel bir menüdür
+      Bu menüde 9 farklı kategori vardır
+      Bunlar Şapkalar, Hareketli şapkalar, Parçacıklar, Kostümler, Evcil Hayvanlar, Minyatürler, Afişler, Emojiler, Pelerinler şeklindedir
+      Kozmetiklerin oyun içindeki rekabete bir etkisi yoktur sadece görünüş amaçlı kullanılır
+
+  - title: "Market"
+    content: |
+      Sunucunun eşya sattığı markettir
+      /market ile ulaşılabilir
+      Oyuncular buradan para karşılığı sunucunun belirlediği eşyaları satın alabilir
+
+  - title: "Yükseltilebilir Fırınlar"
+    content: |
+      Yükseltilebilir fırınlar Yükseltilebilir Ocak, Yükseltilebilir Maden Ocağı, Yükseltilebilir Duman Fırını
+      olmak üzere 3 e ayrılır
+      Yükseltilebilir Ocak Taş,et pişirmek için temel fırındır
+      Yükseltilebilir Maden Ocağı Cevherleri normal fırından daha hızlı bir şekilde pişirmek için kullanılır
+      Yükseltilebilir Duman Fırını Yiyecekleri hızlıca pişiren özel bir fırındır
+      Bu fırınların toplam 6 seviyesi bulunur seviyeleri arttıkça pişirme hızı artar ve yakıt tüketimi azalır
+      Bu fırınları /market üzerinde bulunan Yükseltilebilir Fırın menüsünden satın alabiliriz
+      Fırının seviyesini arttırmak için 1. seviye ücretsiz , 2. seviye 2.000 , 3. seviye 6.000, 4. seviye 9.000
+      5. seviye 14.000 , 6. seviye 20.000 oyun bakiyesi gerekir
+
+  - title: "Evrensel Huni"
+    content: |
+      Evrensel huni ile etrafa düşen eşyaları belli yarıçapta toplayabilirsiniz
+      Evrensel huninin filtreleme özelliği sayesinde huninin hangi eşyaları toplayabileceğini filtreleyebilirsiniz
+      Evrensel huninin sandık bağlama modu sayesinde huninin topladığı eşyaları direkt olarak belirlediğiniz
+      sandığa aktarmasını sağlayabilirsiniz
+      Her oyuncu en fazla 3 adet evrensel huni koyma hakkına sahiptir bu özellik vip ve rütbelerde artar
+      Evrensel huninin 3 seviyesi bulunmaktadır evrensel huninizin seviyesi arttıkça topladığı mesafede artmaktadır
+      1. seviyede 2x2x2 mesafede bulunan eşyaları toplar bu seviye ücretsizdir , 2. seviyede 4x4x4 bu seviyeye
+      yükseltmek için 5.000 oyun içi bakiye gerekir, 3. seviyede 6x6x6 bu seviyeye yükseltmek için 15.000 oyun içi
+      bakiye gerekir
+      Evrensel huniyi /market üzerinden satın alabilirsiniz
+
+  - title: "Elmacı"
+    content: |
+      Elmacı takası sayesinde 1 adet Altın elma ve 16 adet Altın block ile 1 adet Büyülü altın elma alınır
+
+  - title: "Tamirci"
+    content: |
+      Oyuncuların elinde tuttuğu veya envanterinde bulunan hasar görmüş eşyaları tamir etmeye yarayan sistemdir
+      Tamirci rütbesi yetersiz olan oyunculardan eşya tamir etmek için bir miktar para alır
+      Viplerin hepsinde tamir sistemi ücretsizdir
+      Sadece kadim rütbesinde tamir sistemi ücretsizdir
+
+  - title: "Günlük Ödül"
+    content: |
+      Oyuncuların rütbesine veya vipsine göre 24 saatte bir belirli ödüller alabileceği bir menüdür
+      Her rütbe ve vip için farklı ödüller bulunur
+
+  - title: "Discord Ödülü"
+    content: |
+      Sunucu içerisindeki hesabınızı discorddaki hesabınız ile eşlemeniz durumunda fazladan bir günlük ödül eklenmektedir
+      Hesap eşleme ödülü 8 adet event kasası anahtarı, 8 adet avcı kasası anahtarı, 3.000 oyun içi bakiye, 5.000 expdir
+      Discord sunucusuna nitro boost bastığınız zaman haftada bir kere alabileceğiniz bir ödül eklenmektedir
+      Discord nitro boost basma ödülü 1 adet gizemli kasa anahtarı, 30.000 para, 50.000 expdir
+
+  - title: "Saatlik Görev Etkinliği"
+    content: |
+      Saatlik görev etkinliği her saat başında olup oyunculara rastgele görevler verilir Görevi en başarılı yapana değerli ödüller vermektedir
+
+  - title: "Kaptan (Işınlanma)"
+    content: |
+      Kaptanda Survival Dünyası ve Nether Dünyası olmak üzere 2 dünya vardır
+      Oyuncular kaptan menüsünü /kaptan veya /warp nether yazarak açabilir
+      Kaptan menüsünden seçilen dünyada oyuncuyu rastgele koordinatlara ışınlar
+
+  - title: "Özel Texture Pack"
+    content: |
+      Sunucuya özel belirli eşyaların görünüşünü değiştiren texture packtir
+      Sunucuda dekorasyon amaçlı texture packlı mobilyalar mevcuttur bu mobilyaları oyuncular evlerinde kullanabilir
+      Mobilyalar /market üzerinden 1000 oyun içi bakiye karşılığında alınır
+      Texture packlı setler ve aletlerde bulunmaktadır
+      Kasaların hepsinde özel texture pack görünüşü mevcuttur
+
+  - title: "Claim Fly (cfly)"
+    content: |
+      Oyuncuların kendi claimlerinde uçma yetkisi verir
+      Oy kasasından , Günlük Ödülden ClaimFly Modulu kazanılır
+      ClaimFly Modulune sağ tıklayarak kullanılır
+      Belirli bir süresi vardır süre bittiğinde uçma yetkisi iptal edilir
+
+  - title: "Jackpot"
+    content: |
+      Jackpot oyuncuların para yatırdığı şans oyunlarıdır
+      En az 2 oyuncu jackpota katılınca oyun başlar
+      Oyuncular para havuzuna para yatırır süre bittiğinde ise rastgele bir oyuncu seçilir ve oyuncuların yatırdığı tüm parayı kazanır
+      Jackpot Basıc Jackpot, Standart Jackpot ve Premium Jackpot olmak üzere 3 e ayrılır
+      Basit Jackpot için Minimum giriş miktarı 1 oyun içi bakiye, Maksimum 100 oyun içi bakiyedir
+      Standart Jacpot için Minimum giriş miktarı 100 oyun içi bakiye, Maksimum 1000 oyun içi bakiyedir
+      Premium Jackpot için Minimum giriş miktarı 1000 bakiye, Maksimum 10.000 oyun içi bakiyedir
+
+  - title: "Yetenekler ve Beceriler"
+    content: |
+      Sunucuda toplam 11 adet yetenek bulunmaktadır. Yetenek seviyeleri çeşitli görevler yapılarak yükseltilebilir ve her yetenek seviyesinde, yeteneğe göre farklı avantajlar kazanılır.
+      Okçuluk yeteneğinde XP kazanmak için yay kullanarak oyuncu veya mob öldürmen gerekir.
+      Savaş yeteneğinde XP kazanmak için yakın dövüş silahları ile oyuncu veya mob öldürmen gerekir.
+      Savunma yeteneğinde XP kazanmak için oyunculardan veya moblardan hasar alman gerekir.
+      Çiftçilik yeteneğinde XP kazanmak için buğday, havuç ve benzeri ekinleri hasat etmen gerekir.
+      Ormancılık yeteneğinde XP kazanmak için ağaç kesmen gerekir.
+      Madencilik yeteneğinde XP kazanmak için taş ve cevher kazman gerekir.
+      Balıkçılık yeteneğinde XP kazanmak için balık tutman gerekir.
+      Kazıcılık yeteneğinde XP kazanmak için kürek kullanarak kazı yapman gerekir.
+      Çeviklik yeteneğinde XP kazanmak için hareket etmen veya düşme hasarı alman gerekir.
+      Simya yeteneğinde XP kazanmak için iksir üretmen gerekir.
+      Büyüleme yeteneğinde XP kazanmak için eşyaları büyülemek, birleştirmek ve biley taşı kullanmak gerekir.
+      Her yeteneğin kendi alanına özel görevleri bulunmaktadır ve görevlerin zorluk seviyesine göre verilen XP miktarı artmaktadır.
+      Her yeteneğin belirli seviyelerinde, yeteneğe özel avantajlar sağlayan Mana Yeteneği kilidi açılır. Bu yetenekleri kullanabilmek için mana gerekir. Mana miktarı ise yetenek seviyen
+      arttıkça yükselir.
+      Ayrıca her yetenek, farklı beceri istatistikleri kazanmanı sağlar. Sunucuda toplam 9 adet beceri istatistiği bulunmaktadır:
+      Güç: Farklı silahlarla verdiğin saldırı hasarını arttırır.
+      Sağlık: Maksimum can miktarını arttırır ve savaşlarda daha uzun süre hayatta kalmanı sağlar.
+      Yenilenme: Can ve mana yenilenme hızını arttırır.
+      Kritik Şans: Kritik vuruş yapma ihtimalini arttırır.
+      Kritik Hasar: Kritik vuruş yaptığında verdiğin hasarı arttırır.
+      Hız: Yürüme ve koşma hızını arttırır.
+      Şans: Toplama becerilerinde bloklardan ekstra eşya düşürme ihtimalini arttırır.
+      Bilgelik: Maksimum mana miktarını arttırır, yetenek XP kazanımını hızlandırır ve örs maliyetlerini azaltır.
+      Tokluk: Düşman saldırılarından aldığın hasarı azaltır
+
+  - title: "Yetenek Yükseltmeleri"
+    content: |
+      Yetenek yükseltmeleri 5 e ayrılır bunlar Doğa , Savaşçılık , Zanaat , Epik , Efsanevi Yetenek Yükseltmesidir
+      Bu yetenek yükseltmeleri belirttiği yeteneklerde exp kazanımını arttırır
+      Doğa Yetenek Yükseltmesi Çiftçilik, Ormancılık, Madencilik, Balıkçılık, Kazıcılık Yeteneklerinde 1.5x kat daha fazla exp kazanımı verir süresi 15 dakikadır oy kasasından elde edilir
+      Savaşçılık Yetenek Yükseltmesi Okçuluk, Savunma, Savaş, Çeviklik Yeteneklerinde 1.5x kat daha fazla exp kazanımı verir süresi 15 dakikadır oy kasasından elde edilir
+      Zanaat Yetenek Yükseltmesi Simya, Büyüleme Yeteneklerinde 1.5x kat daha fazla exp kazanımı verir süresi 15 dakikadır oy kasasından elde edilir
+      Epik Yetenek Yükseltmesi Tüm Yeteneklerde 2x kat daha fazla exp kazanımı verir süresi 4 saattir Gizemli kasadan ve Mistik Kasadan elde edilir
+      Efsanevi Yetenek Yükseltmesi Tüm Yeteneklerde 2x kat daha fazla exp kazanımı verir süresi 8 saattir Gizemli kasadan elde edilir
+
+  - title: "Gece Pazarı"
+    content: |
+      Her gece 00:00 ve 06:00 saatleri arasında açılan sunucunun marketidir
+      Oyuncular buradan ucuz fiyatla oyun içerisinde bulunması zor olan eşyaları alabilir
+      Her eşya için belirli bir stok sayısı vardır
+
+  - title: "Maden Warpı"
+    content: |
+      Sunucunun oluşturduğu bir warptır
+      Bu warpta rastgele yerlerde oluşan maden cevherlerini kırabilir
+      Zararlı/Zararsız mob spawnerlarından faydalanabilirsiniz
+      Pvp kapalıdır ölünce yere eşya düşmez moblardan hasar alma ayarı açıktır
+
+  - title: "Oyuncu Profili"
+    content: |
+      Oyuncunun oyun içerisinde bilgilerini detaylı bir şekilde gösterir
+      /profil komutuyla açılabilir
+      Oyuncunun mevcut yetenek seviyesi, toplam parası, toplam expsi, oyuncu öldürme sayısı, ölme sayısı, kullanılabilir claim block miktari, kaç parça claim sahibi olduğu
+      toplam zıplaması, kaç eşya ürettiği, kaç adet balık tuttuğu, kaç block kırdığı, oyundan kaç kere çıktığını gösterir
+
+  - title: "Sandık Satar"
+    content: |
+      Sandıklarınızı kolayca vurarak satmanın en kolay yolu sandıksatar çubuğuna sahip olmaktır
+      Sandıksatarla vurduğunuz sandığın içindeki ürünler /market e satılır
+      Sandıksatar /market üzerinden satın alınabilir
+      4 Farklı sandık satar çeşiti vardır ve fiyatlarıda buna göre değişir
+      50 Kullanım hakkı olan sandık satarın fiyatı 5000 oyun bakiyesidir
+      100 Kullanım hakkı olan sandık satarın fiyatı 10.000 oyun bakiyesidir
+      200 Kullanım hakkı olan sandık satarın fiyatı 20.000 oyun bakiyesidir
+      300 Kullanım hakkı olan sandık satarın fiyatı 30.000 oyun bakiyesidir
+      Sandık satarla bir sandığa vurduğunuzda 1 adet kullanım hakkı harcamış olursunuz
+
+  - title: "EXP Şişeleme"
+    content: |
+      Üstünüzde bulunan expleri /expşişele komutu ile şişeleyebilirsiniz
+      Exp şişelediğiniz zaman expnizin %10 nu komisyon olarak alır
+
+  - title: "Blok Sayaç Etiketi"
+    content: |
+      Aletinize bastığınızda o eşya ile kaç block kırdığınızı gösterir
+
+  - title: "Öldürme Sayaç Etiketi"
+    content: |
+      Kılıcınıza bastığınızda o kılıç ile kaç kişiyi öldürdüğünüzü gösterir
+
+  - title: "Netherite (Çürük) Sistemi"
+    content: |
+      Netherda kırdığınız netheritelar arasından çürükler çıkabilir
+      Çürük netherite çıkma oranı rastgeledir
+      Çürük netherite çıktığında netherite oyuncuya gelmez yok olur
