@@ -318,7 +318,7 @@ systems:
       Slot arttırıcıların da başarı ve başarısızlık ihtimali vardır bu başarı oranı artırılamaz.
   - title: "Vote Party"
     content: |
-      Sunucuda her 13500 vote verildiğinde otomatik olarak envanter eventi başlar
+      Sunucuda her 100 vote verildiğinde otomatik olarak envanter eventi başlar
       Her eventte bu sayaç sıfırlanır
   - title: "Mobcoin"
     content: |
