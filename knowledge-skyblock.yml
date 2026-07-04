@@ -457,5 +457,7 @@ systems:
    /işçi ayrıl (İşten çıkmak için kullanılır)
    /işçi kov (İşçiyi işten çıkarmak için kullanılır)
    /işçi liste (İşe aldığınız kişilerin listesini gösterir)"
+ * title: "Ruh Tozu"
+   content: "Ruh tozu, Nether adanızdaki yetişmiş Nether yumrularını toplarken şansa bağlı olarak düşer. Topladığınız ruh tozlarını '/wart' komutunu kullanarak veya Nether adanızdayken kazmanıza sağ tıklayıp açılan menü üzerinden harcayabilirsiniz."
 
 
