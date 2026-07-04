@@ -449,4 +449,13 @@ systems:
    content: "Afkclient üzerinde tek IP adresi üzerinden 10 farklı hesap kullanabilirsin."
  * title: "Kanat Parçacığı"
    content: "Kanat parçacığı “/warp envoy” alanındaki kasalardan şans eseri çıkar. Topladığın parçacıklarla kanat alabilirsin. Gereken miktarı görmek ve işlem yapmak için “/warp kanat” komutunu kullanmalısın."
+ * title: "İşçi Sistemi"
+   content: "İşçi sistemi, adanıza eklediğiniz oyuncuların farmlarınıza zarar vermesini veya eşyalarınızı çalmasını engellemek için tasarlanmıştır. Temel komutlar şunlardır:
+   /işçi yap isim (Belirttiğiniz oyuncuyu işçi ekler)
+   /işçi depo (İşçiye vereceğiniz blokların çalınmamasını sağlar)
+   /işçi panel (İşçi eklediğiniz oyuncunun yetkilerini yönettiğiniz paneldir)
+   /işçi ayrıl (İşten çıkmak için kullanılır)
+   /işçi kov (İşçiyi işten çıkarmak için kullanılır)
+   /işçi liste (İşe aldığınız kişilerin listesini gösterir)"
+
 
