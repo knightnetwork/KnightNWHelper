@@ -441,15 +441,15 @@ systems:
   - title: "Metin taşı"
     content: |
       Metin taşları 30 dakikada bir yenilenir. Metin taşlarını kırarak değerli ganimetler alınabilir. /warp metin
-       * title: "Mağaracoin"
+  - title: "Mağaracoin"
    content: "Mağaracoin “/warp mağara” içerisinde kasılır ve “/warp madencoin” içerisinde harcanır."
- * title: "Envoy Mesajları"
+  - title: "Envoy Mesajları"
    content: "Envoy mesajlarını kapatmak için “/envoy ignore” komutunu kullanmalısın."
- * title: "AFK Hesap Limiti"
+  - title: "AFK Hesap Limiti"
    content: "Afkclient üzerinde tek IP adresi üzerinden 10 farklı hesap kullanabilirsin."
- * title: "Kanat Parçacığı"
+  - title: "Kanat Parçacığı"
    content: "Kanat parçacığı “/warp envoy” alanındaki kasalardan şans eseri çıkar. Topladığın parçacıklarla kanat alabilirsin. Gereken miktarı görmek ve işlem yapmak için “/warp kanat” komutunu kullanmalısın."
- * title: "İşçi Sistemi"
+  - title: "İşçi Sistemi"
    content: "İşçi sistemi, adanıza eklediğiniz oyuncuların farmlarınıza zarar vermesini veya eşyalarınızı çalmasını engellemek için tasarlanmıştır. Temel komutlar şunlardır:
    /işçi yap isim (Belirttiğiniz oyuncuyu işçi ekler)
    /işçi depo (İşçiye vereceğiniz blokların çalınmamasını sağlar)
@@ -457,7 +457,7 @@ systems:
    /işçi ayrıl (İşten çıkmak için kullanılır)
    /işçi kov (İşçiyi işten çıkarmak için kullanılır)
    /işçi liste (İşe aldığınız kişilerin listesini gösterir)"
- * title: "Ruh Tozu"
+  - title: "Ruh Tozu"
    content: "Ruh tozu, Nether adanızdaki yetişmiş Nether yumrularını toplarken şansa bağlı olarak düşer. Topladığınız ruh tozlarını '/wart' komutunu kullanarak veya Nether adanızdayken kazmanıza sağ tıklayıp açılan menü üzerinden harcayabilirsiniz."
 
 
