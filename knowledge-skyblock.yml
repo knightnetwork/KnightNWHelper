@@ -442,15 +442,20 @@ systems:
     content: |
       Metin taşları 30 dakikada bir yenilenir. Metin taşlarını kırarak değerli ganimetler alınabilir. /warp metin
   - title: "Mağaracoin"
-   content: "Mağaracoin “/warp mağara” içerisinde kasılır ve “/warp madencoin” içerisinde harcanır."
+   content: |
+     "Mağaracoin “/warp mağara” içerisinde kasılır ve “/warp madencoin” içerisinde harcanır."
   - title: "Envoy Mesajları"
-   content: "Envoy mesajlarını kapatmak için “/envoy ignore” komutunu kullanmalısın."
+   content: |
+   "Envoy mesajlarını kapatmak için “/envoy ignore” komutunu kullanmalısın."
   - title: "AFK Hesap Limiti"
-   content: "Afkclient üzerinde tek IP adresi üzerinden 10 farklı hesap kullanabilirsin."
+   content: |
+   "Afkclient üzerinde tek IP adresi üzerinden 10 farklı hesap kullanabilirsin."
   - title: "Kanat Parçacığı"
-   content: "Kanat parçacığı “/warp envoy” alanındaki kasalardan şans eseri çıkar. Topladığın parçacıklarla kanat alabilirsin. Gereken miktarı görmek ve işlem yapmak için “/warp kanat” komutunu kullanmalısın."
+   content: |
+   "Kanat parçacığı “/warp envoy” alanındaki kasalardan şans eseri çıkar. Topladığın parçacıklarla kanat alabilirsin. Gereken miktarı görmek ve işlem yapmak için “/warp kanat” komutunu kullanmalısın."
   - title: "İşçi Sistemi"
-   content: "İşçi sistemi, adanıza eklediğiniz oyuncuların farmlarınıza zarar vermesini veya eşyalarınızı çalmasını engellemek için tasarlanmıştır. Temel komutlar şunlardır:
+   content: |
+   "İşçi sistemi, adanıza eklediğiniz oyuncuların farmlarınıza zarar vermesini veya eşyalarınızı çalmasını engellemek için tasarlanmıştır. Temel komutlar şunlardır:
    /işçi yap isim (Belirttiğiniz oyuncuyu işçi ekler)
    /işçi depo (İşçiye vereceğiniz blokların çalınmamasını sağlar)
    /işçi panel (İşçi eklediğiniz oyuncunun yetkilerini yönettiğiniz paneldir)
@@ -458,6 +463,7 @@ systems:
    /işçi kov (İşçiyi işten çıkarmak için kullanılır)
    /işçi liste (İşe aldığınız kişilerin listesini gösterir)"
   - title: "Ruh Tozu"
-   content: "Ruh tozu, Nether adanızdaki yetişmiş Nether yumrularını toplarken şansa bağlı olarak düşer. Topladığınız ruh tozlarını '/wart' komutunu kullanarak veya Nether adanızdayken kazmanıza sağ tıklayıp açılan menü üzerinden harcayabilirsiniz."
+   content: |
+   "Ruh tozu, Nether adanızdaki yetişmiş Nether yumrularını toplarken şansa bağlı olarak düşer. Topladığınız ruh tozlarını '/wart' komutunu kullanarak veya Nether adanızdayken kazmanıza sağ tıklayıp açılan menü üzerinden harcayabilirsiniz."
 
 
