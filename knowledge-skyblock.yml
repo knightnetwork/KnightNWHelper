@@ -466,4 +466,7 @@ systems:
    content: |
    "Ruh tozu, Nether adanızdaki yetişmiş Nether yumrularını toplarken şansa bağlı olarak düşer. Topladığınız ruh tozlarını '/wart' komutunu kullanarak veya Nether adanızdayken kazmanıza sağ tıklayıp açılan menü üzerinden harcayabilirsiniz."
 
-
+ - title:  "Mağara Nedir"
+ content: |
+  "Mağara rütbe görevlerini tamamlayabileceğiniz veya cevher kırıp maden kasabileceğiniz mekandır. Gitmek için /warp mağara yazmalısınız. Unutmayın mağara tek katlı değil birden çok katlıdır."
+ 
