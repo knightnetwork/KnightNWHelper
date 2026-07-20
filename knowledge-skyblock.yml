@@ -456,12 +456,12 @@ systems:
   - title: "İşçi Sistemi"
    content: |
    "İşçi sistemi, adanıza eklediğiniz oyuncuların farmlarınıza zarar vermesini veya eşyalarınızı çalmasını engellemek için tasarlanmıştır. Temel komutlar şunlardır:
-   /işçi yap isim (Belirttiğiniz oyuncuyu işçi ekler)
-   /işçi depo (İşçiye vereceğiniz blokların çalınmamasını sağlar)
-   /işçi panel (İşçi eklediğiniz oyuncunun yetkilerini yönettiğiniz paneldir)
-   /işçi ayrıl (İşten çıkmak için kullanılır)
-   /işçi kov (İşçiyi işten çıkarmak için kullanılır)
-   /işçi liste (İşe aldığınız kişilerin listesini gösterir)"
+  ' /işçi yap isim (Belirttiğiniz oyuncuyu işçi ekler)
+  ' /işçi depo (İşçiye vereceğiniz blokların çalınmamasını sağlar)
+  ' /işçi panel (İşçi eklediğiniz oyuncunun yetkilerini yönettiğiniz paneldir)
+  ' /işçi ayrıl (İşten çıkmak için kullanılır)
+  ' /işçi kov (İşçiyi işten çıkarmak için kullanılır)
+  ' /işçi liste (İşe aldığınız kişilerin listesini gösterir)"
   - title: "Ruh Tozu"
    content: |
    "Ruh tozu, Nether adanızdaki yetişmiş Nether yumrularını toplarken şansa bağlı olarak düşer. Topladığınız ruh tozlarını '/wart' komutunu kullanarak veya Nether adanızdayken kazmanıza sağ tıklayıp açılan menü üzerinden harcayabilirsiniz."
@@ -469,4 +469,11 @@ systems:
  - title:  "Mağara Nedir"
  content: |
   "Mağara rütbe görevlerini tamamlayabileceğiniz veya cevher kırıp maden kasabileceğiniz mekandır. Gitmek için /warp mağara yazmalısınız. Unutmayın mağara tek katlı değil birden çok katlıdır."
- 
+
+- title: "Süngeri nerede kıracağım"
+content: |
+'Süngeri ‘/warp maden’ bölgesine giderek belirli alan içerisinde kırabilir ve bu süngerlerden para kazanabilirsin.
+
+-   title: "Süngeri nerede kullanacağım"
+   content: |
+  ' ‘/warp sünger’ yazıp oradaki köylüden belirli bir miktar sünger karşılığında takas yapabilirsiniz.'
