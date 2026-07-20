@@ -472,7 +472,9 @@ systems:
 
 - title: "Süngeri nerede kıracağım"
 content: |
-'Süngeri ‘/warp maden’ bölgesine giderek belirli alan içerisinde kırabilir ve bu süngerlerden para kazanabilirsin.
- -  title: "Süngeri nerede kullanacağım"
+'Süngeri ‘/warp maden’ bölgesine giderek belirli alan içerisinde kırabilir ve bu süngerlerden para kazanabilirsin. -  title: "Süngeri nerede kullanacağım"
+
+-   title: "Süngeri nerede kullanacağım"
    content: |
-  ' ‘/warp sünger’ yazıp oradaki köylüden belirli bir miktar sünger karşılığında takas yapabilirsiniz.'
+   '‘/warp sünger’ yazıp oradaki köylüden belirli bir miktar sünger karşılığında takas yapabilirsiniz.'
+
