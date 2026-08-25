@@ -440,7 +440,7 @@ systems:
       Üstünüzde bulunan expleri /expşişele komutu ile şişeleyebilirsiniz Exp şişelediğiniz zaman expnizin %10 nu komisyon olarak alır
   - title: "Metin taşı"
     content: |
-      Metin taşları 30 dakikada bir yenilenir. Metin taşlarını kırarak değerli ganimetler alınabilir. /warp metin
+      Metin taşları 60 dakikada bir yenilenir. Metin taşlarını kırarak değerli ganimetler alınabilir. /warp metin
   - title: "Mağaracoin"
     content: |
      "Mağaracoin “/warp mağara” içerisinde kasılır ve “/warp madencoin” içerisinde harcanır."
