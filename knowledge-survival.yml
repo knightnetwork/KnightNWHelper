@@ -103,7 +103,7 @@ entries:
   - title: "SSS: Göktaşı çekirdeğini nerede kullanabilirim?"
     content: "Göktaşı çekirdeğini /warp göktaşı üzerinden kullanabilirsin."
   - title: "SSS: Envoy nedir?"
-    content: "Envoy, her 2 saatte bir otomatik başlayan etkinliktir. /warp envoy bölgesine rastgele sandıklar düşer. Bu sandıkları açarak çeşitli ödüller kazanabilirsin."
+    content: "Envoy, her 1 saatte bir otomatik başlayan etkinliktir. /warp envoy bölgesine rastgele sandıklar düşer. Bu sandıkları açarak çeşitli ödüller kazanabilirsin."
   - title: "SSS: Oyuncu warplarına nasıl bakabilirim?"
     content: "/owarp komutu ile sunucudaki tüm oyuncu warplarını görüntüleyebilirsin."
   - title: "SSS: Order sistemi var mı?"
