@@ -267,7 +267,7 @@ entries:
   - title: "SSS: Jackpot neden başlamıyor?"
     content: "Jackpot etkinliğinin başlayabilmesi için en az 2 oyuncunun katılmış olması gerekir."
   - title: "SSS: Envoy kaç saatte bir oluyor?"
-    content: "Envoy etkinliği her 2 saatte bir otomatik olarak başlar."
+    content: "Envoy etkinliği her 1 saatte bir otomatik olarak başlar."
   - title: "SSS: Voteparty nedir?"
     content: "Sunucuda toplam 100 oy verildiğinde otomatik olarak başlayan bir etkinliktir ve oyunculara envanter ödülleri verir."
   - title: "SSS: Claim block nasıl kazanırım?"
